@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 153);
+  font-size: 8px;
+}
+.mainClick {
+  font-size:20px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: red;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  transform: translate(0px, -10px);
+  z-index: 10000;
+}
+.lighter {
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transform: translate(-125px, -125px);
+}
+
+.lighter-img {
+  width: 250px;
+}
