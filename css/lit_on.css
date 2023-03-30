@@ -37,4 +37,5 @@ input {
 .button {
   border: rgb(0, 183, 255) 2px;
   width: 150px;
+  color: rgb(0, 183, 255);
 }

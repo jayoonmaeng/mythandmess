@@ -1,11 +1,2 @@
-$(document).ready(function () {
-  $(document).mousemove(function (e) {
-    var mouseX = e.pageX;
-    var mouseY = e.pageY;
-
-    $(".lighting").css({
-      left: mouseX + "px",
-      top: mouseY + "px",
-    });
-  });
-});
+// .button 을 클릭 했을때, **
+// input안에 있는 값을 가져와야함.
