@@ -8,8 +8,9 @@
 body {
   color: rgb(0, 183, 255);
   background-color: rgb(0, 183, 255);
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  position: relative;
 }
 .lighting {
   opacity: 0.9;
@@ -27,15 +28,33 @@ body {
   mix-blend-mode: darken;
 }
 input {
-  border: rgb(0, 183, 255) 2px;
+  border-bottom: rgb(0, 183, 255) 2px solid;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+.motherCotext {
+  position: relative;
 }
 .oceanTop {
-  font-size: 10px;
-  color: azure;
-  background-color: aliceblue;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }
 .button {
-  border: rgb(0, 183, 255) 2px;
   width: 150px;
   color: rgb(0, 183, 255);
+  border: rgb(0, 183, 255) 3px solid;
+  border-radius: 10px;
+}
+.info {
+  width: 1200px;
+  height: 300px;
+
+  padding: 30px;
+  margin: 50px;
+  border: rgb(0, 183, 255) 3px solid;
+  border-radius: 20px;
+  box-shadow: 3px;
 }
