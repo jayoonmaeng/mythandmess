@@ -1,7 +1,6 @@
 * {
   margin: 0 auto;
   padding: 0;
-  padding-top: 130px;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -18,7 +17,7 @@ body {
 
 .boxall {
   font-family: sans-serif;
-  padding: 100px;
+  padding: 150px;
 }
 .box1 {
   width: 100%;
