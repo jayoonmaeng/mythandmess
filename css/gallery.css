@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  /* display: relative; */
+  /* background-color: rgb(255, 0, 144); */
+  /* background-image: url(/img/kiwihug-y_2GC4EhOP4-unsplash.jpg); */
+  background-image: url(/img/kiwihug-y_2GC4EhOP4-unsplash.jpg);
+  background-size: 100vw;
+  /* position: relative; */
+}
+
+img {
+  padding: 20px;
+  height: 300px;
+  object-fit: cover;
+  /* border: 5px solid rgb(0, 183, 255); */
+}
+.text {
+  padding: 30px;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 20px;
+  color: rgb(0, 183, 255);
+}
+.allbox {
+  justify-content: left;
+  width: 100vw;
+  font-family: "Gugi", cursive;
+  /* font-family: "Playfair Display", serif; */
+}
+.imgbox {
+  padding-left: 100px;
+  display: flex;
+  /* border-bottom: 2px solid gray; */
+}

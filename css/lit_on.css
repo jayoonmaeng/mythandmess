@@ -5,6 +5,17 @@
   list-style: none;
   box-sizing: border-box;
 }
+a {
+  display: block;
+  height: 50px;
+  color: rgb(255, 0, 144);
+  font-weight: bolder;
+  z-index: 10001;
+  text-align: center;
+  line-height: 45px;
+  border: 2px solid rgb(255, 0, 144);
+  border-radius: 100%;
+}
 body {
   color: rgb(0, 183, 255);
   background-color: rgb(0, 183, 255);
@@ -14,14 +25,14 @@ body {
 }
 .lighting {
   opacity: 0.9;
-  position: fixed;
+  position: absolute;
   /* top: 0;
   left: 0; */
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-color: rgb(255, 0, 144);
-  transform: translate(-60px, -60px);
+  transform: translate(-75px, -75px);
   filter: blur(20px);
 }
 .context {
@@ -35,7 +46,9 @@ input {
   border-left: transparent;
   border-right: transparent;
 }
+
 .oceanTop {
+  margin-top: 50px;
   font-size: 20px;
   color: white;
   text-align: center;
@@ -44,18 +57,18 @@ input {
   bottom: 0px;
 }
 .button {
-  width: 120px;
+  width: 100px;
   color: rgb(0, 183, 255);
-  border: rgb(0, 183, 255) 3px solid;
+  border: rgb(0, 183, 255) 1.5px solid;
   border-radius: 8px;
 }
 .info {
-  width: 100%;
-  height: 240px;
-
-  padding: 30px;
-
-  border: rgb(0, 183, 255) 3px solid;
+  margin: 20px auto;
+  width: 60vw;
+  height: 155px;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px;
+  border: rgb(0, 183, 255) 2px solid;
   border-radius: 20px;
-  box-shadow: 3px;
 }
