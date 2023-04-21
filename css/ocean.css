@@ -5,6 +5,11 @@
   list-style: none;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: rgb(255, 132, 0);
+}
+
 body {
   padding: 150px;
   width: 100%;
@@ -12,52 +17,68 @@ body {
   background-size: cover;
   background-position: center;
   font-size: 21px;
+  background-image: url(/otherimg/6192cc2ca5a02f9f028443ec50a61f3e.jpg);
 }
 
 .boxall {
-  font-family: sans-serif;
   padding: 150px;
+  flex: 1;
 }
 .box1 {
+  font-family: "Times New Roman", Times, serif;
   width: 100%;
   height: 100vh;
   margin: 80 auto;
   padding-top: 300px;
-  color: black;
+  color: rgb(0, 0, 0);
   overflow: auto;
 
   text-align: center;
   font-size: 40px;
 }
 .box2 {
+  font-family: "Dongle", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
   display: flex;
+  flex: 1;
   flex-direction: row-reverse;
   width: 100%;
   height: 400px;
-  color: rgb(50, 50, 50);
+  color: rgb(66, 66, 66);
   overflow: auto;
 }
 .box3 {
+  font-family: "Dongle", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
   display: flex;
+  flex: 1;
   flex-direction: row-reverse;
   width: 100%;
   height: 400px;
-  color: rgb(117, 117, 117);
+  color: rgb(161, 161, 161);
   overflow: auto;
 }
 .box4 {
+  font-family: "Dongle", sans-serif;
+  font-size: 21px;
+  display: flex;
+  flex: 1;
   width: 100%;
   height: 400px;
-  color: rgb(144, 144, 144);
+  color: rgb(211, 114, 29);
   overflow: auto;
 }
-.box4 {
-  width: 100%;
-  height: 400px;
-  color: rgb(181, 181, 181);
-  overflow: auto;
-}
+
 .box6 {
+  font-family: "Dongle", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  text-align: center;
   width: 100%;
   line-height: 90px;
+  border: 1px solid rgb(255, 132, 0);
+  border-radius: 100%;
+  text-decoration: none;
 }

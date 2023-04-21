@@ -52,7 +52,7 @@ input {
   font-size: 20px;
   color: white;
   text-align: center;
-
+  border: 2px solid;
   position: relative;
   bottom: 0px;
 }
