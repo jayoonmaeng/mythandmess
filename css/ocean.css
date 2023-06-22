@@ -7,25 +7,24 @@
 }
 a {
   text-decoration: none;
-  color: rgb(255, 132, 0);
+  color: coral;
 }
 
 body {
-  padding: 150px;
+  margin-top: 200px;
   width: 100%;
   background-image: linear-gradient(to bottom, white, black);
   background-size: cover;
   background-position: center;
-  font-size: 21px;
-  background-image: url(/otherimg/6192cc2ca5a02f9f028443ec50a61f3e.jpg);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
 }
 
 .boxall {
-  padding: 150px;
+  padding: 100px;
   flex: 1;
 }
 .box1 {
-  font-family: "Times New Roman", Times, serif;
   width: 100%;
   height: 100vh;
   margin: 80 auto;
@@ -36,49 +35,59 @@ body {
   text-align: center;
   font-size: 40px;
 }
+
 .box2 {
-  font-family: "Dongle", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   display: flex;
   flex: 1;
   flex-direction: row-reverse;
+
   width: 100%;
-  height: 400px;
+  height: 500px;
   color: rgb(66, 66, 66);
   overflow: auto;
 }
 .box3 {
-  font-family: "Dongle", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   display: flex;
   flex: 1;
   flex-direction: row-reverse;
+
   width: 100%;
-  height: 400px;
-  color: rgb(161, 161, 161);
+  height: 500px;
+  color: rgb(123, 123, 123);
   overflow: auto;
 }
 .box4 {
-  font-family: "Dongle", sans-serif;
-  font-size: 21px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   display: flex;
   flex: 1;
   width: 100%;
-  height: 400px;
-  color: rgb(211, 114, 29);
+  height: 500px;
+  color: rgb(143, 143, 143);
+  overflow: auto;
+}
+.box5 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 500px;
+  color: rgb(209, 209, 209);
   overflow: auto;
 }
 
 .box6 {
-  font-family: "Dongle", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 10px;
   text-align: center;
   width: 100%;
-  line-height: 90px;
-  border: 1px solid rgb(255, 132, 0);
+  border: 1px solid coral;
   border-radius: 100%;
   text-decoration: none;
 }
